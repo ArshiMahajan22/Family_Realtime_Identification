@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>Realtime Image Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="background.jpg">
+  <center>
+  <h3 class="heading">
+    Realtime Family Identification
+    <hr>
+    <center>
+    <div class="heading_div col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      Model id Trained on:
+      <br>
+      <div class="heading_div2 btn btn-warning">
+        Mother | Father | Daughter 
+      </div>
+    </div>
+    </center>
+  </h3>
+  <br>
+  <br>
+
+  <div class="div_result btn btn-warning">Person : 
+    <span id="Object"></span>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="div_result btn btn-warning">Accuracy : 
+    <span id="Confidence"></span>
+  </div>
+  </center>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+

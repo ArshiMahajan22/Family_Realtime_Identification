@@ -1,0 +1,48 @@
+.heading{
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 10px;
+    color: ghostwhite;
+    background-color: rgb(255, 77, 166);
+}
+
+.heading hr{
+    color: ivory;
+}
+
+.heading:hover{
+    background-color: rgb(255, 0, 128);
+}
+
+.heading_div{
+    float: none;
+    background: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    box-shadow: 3px 3px 3px rgb(29, 29, 29);
+}
+
+.heading_div2{
+    font-size: 17px;
+
+}
+
+.div_result{
+    box-shadow: 3px 3px 3px rgb(41, 41, 41);
+}
+
+canvas{
+    border-radius: 5px;
+    animation-name: Glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Glow{
+    from{box-shadow: 5px 5px 15px rgb(255, 0, 128);}
+    to{box-shadow: 5px 5px 15px rgb(255, 38, 0);}
+}
